@@ -7,7 +7,7 @@ public class ex1404_2 {
     public static void main(String[] args) {
         int dia, mes;
         
-        System.out.println("Informe o mês: ");
+        System.out.println("Informe o mes: ");
         mes = input.nextInt();
         System.out.println("Informe o dia: ");
         dia = input.nextInt();
@@ -15,7 +15,7 @@ public class ex1404_2 {
             if (mes == 3 && dia >= 20) {
                 System.out.println("Outono");
             } else {
-                System.out.println("Verão");
+                System.out.println("Verao");
             }
         } else {
             if (mes == 4 || mes == 5 || mes == 6) {
@@ -28,10 +28,10 @@ public class ex1404_2 {
                         System.out.println("Inverno");
                     } else {
                         if (mes == 9 && dia >= 23) {
-                            System.out.println("Verão");
+                            System.out.println("Verao");
                         } else {
                             if (mes == 10 || mes == 11 || mes == 12) {
-                                System.out.println("Verão");
+                                System.out.println("Verao");
                             }
                         }
                     }

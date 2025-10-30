@@ -11,6 +11,7 @@ public class ex1404_2 {
         mes = input.nextInt();
         System.out.println("Informe o dia: ");
         dia = input.nextInt();
+        
         if (mes == 1 || mes == 2 || mes == 3) {
             if (mes == 3 && dia >= 20) {
                 System.out.println("Outono");
@@ -19,20 +20,24 @@ public class ex1404_2 {
             }
         } else {
             if (mes == 4 || mes == 5 || mes == 6) {
-                System.out.println("Outono");
-            } else {
                 if (mes == 6 && dia >= 21) {
                     System.out.println("Inverno");
                 } else {
-                    if (mes == 7 || mes == 8 || mes == 9) {
-                        System.out.println("Inverno");
+                    System.out.println("Outono");
+                }
+            } else {
+                if (mes == 7 || mes == 8 || mes == 9) {
+                    if (mes == 9 && dia >= 23) {
+                        System.out.println("Primavera");
                     } else {
-                        if (mes == 9 && dia >= 23) {
+                        System.out.println("Inverno");
+                    }
+                } else {
+                    if (mes == 10 || mes == 11 || mes == 12) {
+                        if (mes == 12 && dia >= 21) {
                             System.out.println("Verao");
                         } else {
-                            if (mes == 10 || mes == 11 || mes == 12) {
-                                System.out.println("Verao");
-                            }
+                            System.out.println("Primavera");
                         }
                     }
                 }
